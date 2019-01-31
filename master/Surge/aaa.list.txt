@@ -1,0 +1,59 @@
+[Proxy Group]
+# 节点选项
+🔰 Proxy = select, 🐧 Node, ⚙️ Auto, 🐦 Fallback, 🔘 DIRECT, 🏠 Scene, 🎮 Game, 🏳️‍🌈 Pass Gold, 🇪🇺 EU, 🇭🇰 HK, 🇨🇳 TW, 🇯🇵 JP, 🇰🇷 KR, 🇸🇬 SG, 🇷🇺 RU, 🇺🇸 US
+
+
+# 海外流媒体服务策略组（适用于 YouTube, Netflix, Spotify, Amazon Prime Video, BBC, FOX+, AbemaTV 等海外流媒体服务）
+🌏 Media = select,  🇭🇰 HK, 🇨🇳 TW, 🇯🇵 JP
+
+#Netflix策略组
+📺 = select, 🇺🇸 US, 🇭🇰 HK, 🇯🇵 JP
+
+# Apple 服务策略组
+🍎 Apple = select, 🔘 DIRECT, 🔰 Proxy, 🐤 Auto
+
+# 游戏服务策略组
+🎮 Game = select, policy-path = https://api.dlercloud.com/link/mvLRc8YejRIQCK3V?is_mu=0&list=1&game=1
+
+# 去广告以及隐私追踪保护、反运营商劫持开关
+👾 Advertising = select, policy-path = https://raw.githubusercontent.com/JO2EY/Rules/master/Surge/ADVERTISING.list
+
+# 国内服务策略组
+🦉 Domestic = select, 🔘 DIRECT, 🔰 Proxy, 🇨🇳 China
+
+# Final 
+☁️ Final = select, 🔰 Proxy, 🔘 DIRECT
+
+# 场景策略
+🏠 Scene = ssid, default = ⚙️ Auto, cellular = ⚙️ Auto
+
+🏳️‍🌈 Pass Gold = select, policy-path = https://api.dlercloud.com/link/mvLRc8YejRIQCK3V?is_mu=0&list=1&class=3
+
+🐧 Node = select, policy-path = https://api.dlercloud.com/link/mvLRc8YejRIQCK3V?is_mu=0&list=1&media=1
+
+# Auto Gold
+⚙️ Auto = url-test, policy-path = https://api.dlercloud.com/link/mvLRc8YejRIQCK3V?is_mu=0&list=1&class=3,url = http://captive.apple.com,interval = 1200,tolerance = 300,timeout = 5
+
+# Fallback Gold HK
+🐦 Fallback = fallback, policy-path = https://api.dlercloud.com/link/mvLRc8YejRIQCK3V?is_mu=0&list=1&hk=1&class=3,url = http://captive.apple.com,timeout = 2
+
+🇪🇺 EU = select, policy-path = https://api.dlercloud.com/link/mvLRc8YejRIQCK3V?is_mu=0&list=1&eu=1
+
+🇭🇰 HK = url-test, policy-path = https://api.dlercloud.com/link/mvLRc8YejRIQCK3V?is_mu=0&list=1&hk=1,url = http://captive.apple.com,interval = 1200,tolerance = 300,timeout = 5
+
+🇨🇳 TW = url-test, policy-path = https://api.dlercloud.com/link/mvLRc8YejRIQCK3V?is_mu=0&list=1&tw=1,url = http://captive.apple.com,interval = 1200,tolerance = 300,timeout = 5
+
+🇯🇵 JP = url-test, policy-path = https://api.dlercloud.com/link/mvLRc8YejRIQCK3V?is_mu=0&list=1&jp=1,url = http://captive.apple.com,interval = 1200,tolerance = 300,timeout = 5
+
+🇰🇷 KR = url-test, policy-path = https://api.dlercloud.com/link/mvLRc8YejRIQCK3V?is_mu=0&list=1&kr=1,url = http://captive.apple.com,interval = 1200,tolerance = 300,timeout = 5
+
+🇸🇬 SG = url-test, policy-path = https://api.dlercloud.com/link/mvLRc8YejRIQCK3V?is_mu=0&list=1&sg=1,url = http://captive.apple.com,interval = 1200,tolerance = 300,timeout = 5
+
+🇷🇺 RU = url-test, policy-path = https://api.dlercloud.com/link/mvLRc8YejRIQCK3V?is_mu=0&list=1&ru=1,url = http://captive.apple.com,interval = 1200,tolerance = 300,timeout = 5
+
+🇺🇸 US = url-test, policy-path = https://api.dlercloud.com/link/mvLRc8YejRIQCK3V?is_mu=0&list=1&us=1,url = http://captive.apple.com,interval = 1200,tolerance = 300,timeout = 5
+
+🇨🇳 CN = url-test, policy-path = https://api.dlercloud.com/link/mvLRc8YejRIQCK3V?is_mu=0&list=1&back=1,url = http://captive.apple.com,interval = 1200,tolerance = 300,timeout = 5
+
+
+// rename : 🍂 Domestic =  🦉 Domestic, ☁️ Others =  ☁️ Final, 🚀 Direct =  DIRECT
