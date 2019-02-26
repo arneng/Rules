@@ -1,0 +1,17 @@
+# Apple
+USER-AGENT,AppStore*,Apple
+USER-AGENT,com.apple.appstored*,Apple
+USER-AGENT,TestFlight*,Apple
+DOMAIN-SUFFIX,apple.com,Apple
+DOMAIN-SUFFIX,icloud.com,Apple
+DOMAIN-SUFFIX,itunes.com,Apple
+DOMAIN-SUFFIX,me.com,Apple
+DOMAIN-SUFFIX,mzstatic.com,Apple
+# > App Store Download || iBooks Sample
+DOMAIN-SUFFIX,itunes.apple.com
+# > Apple Music Preview
+DOMAIN,audio-ssl.itunes.apple.com
+# > Apple News and Apple Map TOMTOM Version
+DOMAIN,gspe1-ssl.ls.apple.com
+PROCESS-NAME,News
+USER-AGENT,AppleNews*
