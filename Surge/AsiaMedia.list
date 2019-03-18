@@ -7,10 +7,6 @@ DOMAIN-SUFFIX,akamaized.net
 DOMAIN-SUFFIX,ameba.jp
 DOMAIN-SUFFIX,hayabusa.io
 
-// CHOCO TV
-USER-AGENT,TwDramas*
-DOMAIN-SUFFIX,chocotv.com.tw
-
 // Imkan
 DOMAIN-SUFFIX,imkan.tv
 
