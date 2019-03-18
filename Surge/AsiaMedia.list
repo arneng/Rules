@@ -14,16 +14,6 @@ DOMAIN-SUFFIX,chocotv.com.tw
 // Imkan
 DOMAIN-SUFFIX,imkan.tv
 
-// MytvSUPER
-USER-AGENT,mytv*
-DOMAIN-KEYWORD,nowtv100
-DOMAIN-KEYWORD,rthklive
-DOMAIN-SUFFIX,mytvsuper.com
-DOMAIN-SUFFIX,tvb.com
-
-// viuTV
-DOMAIN-SUFFIX,viu.tv
-
 // IQIYI
 USER-AGENT,QIYI*
 USER-AGENT,iQiYi*
