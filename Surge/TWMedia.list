@@ -3,3 +3,7 @@ USER-AGENT,Anime*
 DOMAIN-SUFFIX,bahamut.com.tw
 DOMAIN-SUFFIX,gamer.com.tw
 DOMAIN-SUFFIX,hinet.net
+
+// CHOCO TV
+USER-AGENT,TwDramas*
+DOMAIN-SUFFIX,chocotv.com.tw
