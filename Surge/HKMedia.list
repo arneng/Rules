@@ -13,3 +13,9 @@ DOMAIN-SUFFIX,tvb.com
 
 // viuTV
 DOMAIN-SUFFIX,viu.tv
+
+// encoreTVB
+USER-AGENT,encoreTVB*
+DOMAIN-SUFFIX,encoretvb.com
+DOMAIN,content.jwplatform.com
+DOMAIN,videos-f.jwpsrv.com
