@@ -5,6 +5,14 @@ DOMAIN-SUFFIX,go.com
 // Gmail
 DOMAIN-SUFFIX,gmail.com
 
+// YouTube
+USER-AGENT,*YouTube*
+USER-AGENT,*youtube*
+DOMAIN-SUFFIX,youtu.be
+DOMAIN-SUFFIX,googlevideo.com
+DOMAIN,youtubei.googleapis.com
+DOMAIN-KEYWORD,youtube
+
 // Epicgames
 DOMAIN-KEYWORD,epicgames
 DOMAIN-SUFFIX,helpshift.com
