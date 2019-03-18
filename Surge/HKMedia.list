@@ -1,0 +1,15 @@
+// JOOX
+USER-AGENT,WeMusic*
+USER-AGENT,JOOX*
+DOMAIN-SUFFIX,joox.com
+DOMAIN-KEYWORD,joox
+
+// MytvSUPER
+USER-AGENT,mytv*
+DOMAIN-KEYWORD,nowtv100
+DOMAIN-KEYWORD,rthklive
+DOMAIN-SUFFIX,mytvsuper.com
+DOMAIN-SUFFIX,tvb.com
+
+// viuTV
+DOMAIN-SUFFIX,viu.tv
