@@ -1,3 +1,3 @@
 ✔ ON = socks5, 192.168.50.1, 8889
 ✖ OFF = direct
-🎲 AU = rl-test, policy-path=https://dler.cloud/link/h1p3xsJ5A06Im35Q?list=1&class=gold&noarea=kr+us, url = http://www.gstatic.com/generate_204, interval = 1200, timeout = 5, tolerance = 300
+🎲 AU = url-test, policy-path=https://dler.cloud/link/h1p3xsJ5A06Im35Q?list=1&class=gold&noarea=kr+us, url = http://www.gstatic.com/generate_204, interval = 1200, timeout = 5, tolerance = 300
