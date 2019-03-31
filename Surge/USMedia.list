@@ -30,12 +30,6 @@ DOMAIN-SUFFIX,pandora.com
 // SoundCloud
 USER-AGENT,SoundCloud*
 
-// Spotify
-USER-AGENT,*Spotify*
-DOMAIN-KEYWORD,spotify
-DOMAIN-SUFFIX,scdn.co
-DOMAIN-SUFFIX,spoti.fi
-
 // PBS
 USER-AGENT,PBS*
 DOMAIN-SUFFIX,pbs.org
