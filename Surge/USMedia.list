@@ -36,3 +36,8 @@ USER-AGENT,*Spotify*
 DOMAIN-KEYWORD,spotify
 DOMAIN-SUFFIX,scdn.co
 DOMAIN-SUFFIX,spoti.fi
+
+// Imkan
+DOMAIN-SUFFIX,imkan.tv
+USER-AGENT,*KanTV*
+DOMAIN-KEYWORD,ktvming
