@@ -31,6 +31,18 @@ USER-AGENT,SoundCloud*
 USER-AGENT,PBS*
 DOMAIN-SUFFIX,pbs.org
 
+// CBS
+USER-AGENT.CBS*
+DOMAIN-SUFFIC,cbsig.net
+DOMAIN-SUFFIC,cbsstatic.com
+DOMAIN-SUFFIC,theplatform.com
+DOMAIN-SUFFIC,penthera.com
+DOMAIN-SUFFIC,brach.io
+DOMAIN-SUFFIC,kochava.com
+DOMAIN-SUFFIC,taplytics.com
+DOMAIN-SUFFIC,cbs.com
+DOMAIN-SUFFIC,newrelic.com
+
 // Spotify
 USER-AGENT,*Spotify*
 DOMAIN-KEYWORD,spotify
