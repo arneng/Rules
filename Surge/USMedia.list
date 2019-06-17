@@ -4,9 +4,12 @@ DOMAIN-SUFFIX,go.com
 
 // CBS
 DOMAIN-SUFFIX,cbsig.net
-DOMAIN-SUFFIX,cbsstatic.com
 DOMAIN-SUFFIX,cbsi.com
 DOMAIN-SUFFIX,cbs.com
+DOMAIN-SUFFIX,newrelic.com
+DOMAIN-SUFFIX,penthera.com
+DOMAIN-SUFFIX,branch.io
+DOMAIN-SUFFIX,braze.com
 
 // Epicgames
 DOMAIN-KEYWORD,epicgames
