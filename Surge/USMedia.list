@@ -33,11 +33,11 @@ DOMAIN-SUFFIX,pbs.org
 
 // CBS
 USER-AGENT.CBS*
-DOMAIN-SUFFIC,cbsig.net
-DOMAIN-SUFFIC,cbsi.com
-DOMAIN-SUFFIC,cbsstatic.com
-DOMAIN-SUFFIC,brach.io
-DOMAIN-SUFFIC,cbs.com
+DOMAIN-SUFFIX,cbsig.net
+DOMAIN-SUFFIX,cbsi.com
+DOMAIN-SUFFIX,cbsstatic.com
+DOMAIN-SUFFIX,brach.io
+DOMAIN-SUFFIX,cbs.com
 
 // Spotify
 USER-AGENT,*Spotify*
