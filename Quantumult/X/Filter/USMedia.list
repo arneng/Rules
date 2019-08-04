@@ -28,7 +28,7 @@ DOMAIN-SUFFIX,pandora.com,USMedia
 USER-AGENT,SoundCloud*,USMedia
 
 // PBS
-USER-AGENT,PBS*
+USER-AGENT,PBS*,USMedia
 DOMAIN-SUFFIX,pbs.org,USMedia
 
 // Imkan
