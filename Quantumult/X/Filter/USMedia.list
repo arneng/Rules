@@ -1,43 +1,37 @@
 // ABC
-DOMAIN-SUFFIX,edgedatg.com
-DOMAIN-SUFFIX,go.com
+DOMAIN-SUFFIX,edgedatg.com,USMedia
+DOMAIN-SUFFIX,go.com,USMedia
 
 // Epicgames
-DOMAIN-KEYWORD,epicgames
-DOMAIN-SUFFIX,helpshift.com
+DOMAIN-KEYWORD,epicgames,USMedia
+DOMAIN-SUFFIX,helpshift.com,USMedia
 
 // HBO && HBO Go
-USER-AGENT,HBO%20NOW*
-DOMAIN-SUFFIX,execute-api.ap-southeast-1.amazonaws.com
-DOMAIN-SUFFIX,hbo.com
-DOMAIN-SUFFIX,hboasia.com
-DOMAIN-SUFFIX,hbogo.com
-DOMAIN-SUFFIX,hbogoasia.hk
+USER-AGENT,HBO%20NOW*,USMedia
+DOMAIN-SUFFIX,execute-api.ap-southeast-1.amazonaws.com,USMedia
+DOMAIN-SUFFIX,hbo.com,USMedia
+DOMAIN-SUFFIX,hboasia.com,USMedia
+DOMAIN-SUFFIX,hbogo.com,USMedia
+DOMAIN-SUFFIX,hbogoasia.hk,USMedia
 
 // Hulu
-USER-AGENT,Hulu*
-DOMAIN-SUFFIX,happyon.jp
-DOMAIN-SUFFIX,hulu.com
-DOMAIN-SUFFIX,huluim.com
-DOMAIN-SUFFIX,hulustream.com
+USER-AGENT,Hulu*,USMedia
+DOMAIN-SUFFIX,happyon.jp,USMedia
+DOMAIN-SUFFIX,hulu.com,USMedia
+DOMAIN-SUFFIX,huluim.com,USMedia
+DOMAIN-SUFFIX,hulustream.com,USMedia
 
 // Pandora
-DOMAIN-SUFFIX,pandora.com
+DOMAIN-SUFFIX,pandora.com,USMedia
 
 // SoundCloud
-USER-AGENT,SoundCloud*
+USER-AGENT,SoundCloud*,USMedia
 
 // PBS
 USER-AGENT,PBS*
-DOMAIN-SUFFIX,pbs.org
-
-// Spotify
-USER-AGENT,*Spotify*
-DOMAIN-KEYWORD,spotify
-DOMAIN-SUFFIX,scdn.co
-DOMAIN-SUFFIX,spoti.fi
+DOMAIN-SUFFIX,pbs.org,USMedia
 
 // Imkan
-DOMAIN-SUFFIX,imkan.tv
-USER-AGENT,*KanTV*
-DOMAIN-KEYWORD,ktvming
+DOMAIN-SUFFIX,imkan.tv,USMedia
+USER-AGENT,*KanTV*,USMedia
+DOMAIN-KEYWORD,ktvming,USMedia
