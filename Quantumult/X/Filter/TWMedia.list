@@ -1,21 +1,21 @@
 // Bahamut
-USER-AGENT,Anime*
-DOMAIN-SUFFIX,bahamut.com.tw
-DOMAIN-SUFFIX,gamer.com.tw
-DOMAIN-SUFFIX,hinet.net
+USER-AGENT,Anime*,TWMedia
+DOMAIN-SUFFIX,bahamut.com.tw,TWMedia
+DOMAIN-SUFFIX,gamer.com.tw,TWMedia
+DOMAIN-SUFFIX,hinet.net,TWMedia
 
 // CHOCO TV
-USER-AGENT,TwDramas*
-DOMAIN-SUFFIX,chocotv.com.tw
+USER-AGENT,TwDramas*,TWMedia
+DOMAIN-SUFFIX,chocotv.com.tw,TWMedia
 
 // KKBOX
-USER-AGENT,*KKBOX
-DOMAIN-SUFFIX,kkbox.com
-DOMAIN-SUFFIX,kkbox.com.tw
-DOMAIN-SUFFIX,kfs.io
+USER-AGENT,*KKBOX,TWMedia
+DOMAIN-SUFFIX,kkbox.com,TWMedia
+DOMAIN-SUFFIX,kkbox.com.tw,TWMedia
+DOMAIN-SUFFIX,kfs.io,TWMedia
 
 // KKTV
-USER-AGENT,KKTV
-USER-AGENT,com.kktv*
-DOMAIN-SUFFIX,kktv.me
-DOMAIN-SUFFIX,kktv.com.tw
+USER-AGENT,KKTV,TWMedia
+USER-AGENT,com.kktv*,TWMedia
+DOMAIN-SUFFIX,kktv.me,TWMedia
+DOMAIN-SUFFIX,kktv.com.tw,TWMedia
