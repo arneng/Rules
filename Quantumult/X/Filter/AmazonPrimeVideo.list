@@ -1,5 +1,5 @@
 // Amazon Prime Video
-USER-AGENT,InstantVideo.US*, Amazon Prime Video
+USER-AGENT,InstantVideo.US*,AmazonPrimeVideo
 USER-AGENT,Prime%20Video*,AmazonPrimeVideo
 DOMAIN-SUFFIX,aiv-cdn.net,AmazonPrimeVideo
 DOMAIN-SUFFIX,amazonaws.com,AmazonPrimeVideo
