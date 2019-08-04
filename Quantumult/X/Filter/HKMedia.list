@@ -1,22 +1,22 @@
 // JOOX
-USER-AGENT,WeMusic*
-USER-AGENT,JOOX*
-DOMAIN-SUFFIX,joox.com
-DOMAIN-KEYWORD,joox
+USER-AGENT,WeMusic*,HKMedia
+USER-AGENT,JOOX*,HKMedia,HKMedia
+DOMAIN-SUFFIX,joox.com,HKMedia
+DOMAIN-KEYWORD,joox,HKMedia
 
 // MytvSUPER
-USER-AGENT,mytv*
-DOMAIN-KEYWORD,nowtv100
-DOMAIN-KEYWORD,rthklive
-DOMAIN-SUFFIX,mytvsuper.com
-DOMAIN-SUFFIX,tvb.com
+USER-AGENT,mytv*,HKMedia
+DOMAIN-KEYWORD,nowtv100,HKMedia
+DOMAIN-KEYWORD,rthklive,HKMedia
+DOMAIN-SUFFIX,mytvsuper.com,HKMedia
+DOMAIN-SUFFIX,tvb.com,HKMedia
 
 // viuTV
-DOMAIN-SUFFIX,viu.tv
+DOMAIN-SUFFIX,viu.tv,HKMedia
 
 // encoreTVB
-USER-AGENT,encoreTVB*
-DOMAIN-SUFFIX,encoretvb.com
-DOMAIN,content.jwplatform.com
-DOMAIN,videos-f.jwpsrv.com
+USER-AGENT,encoreTVB*,HKMedia
+DOMAIN-SUFFIX,encoretvb.com,HKMedia
+DOMAIN,content.jwplatform.com,HKMedia
+DOMAIN,videos-f.jwpsrv.com,HKMedia
 
