@@ -1,6 +1,6 @@
 // JOOX
 USER-AGENT,WeMusic*,HKMedia
-USER-AGENT,JOOX*,HKMedia,HKMedia
+USER-AGENT,JOOX*,HKMedia
 DOMAIN-SUFFIX,joox.com,HKMedia
 DOMAIN-KEYWORD,joox,HKMedia
 
