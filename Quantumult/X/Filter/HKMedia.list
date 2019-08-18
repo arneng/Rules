@@ -12,7 +12,14 @@ DOMAIN-SUFFIX,mytvsuper.com,HKMedia
 DOMAIN-SUFFIX,tvb.com,HKMedia
 
 // viuTV
+USER-AGENT,Viu*,HKMedia
+USER-AGENT,ViuTV*,HKMedia
+DOMAIN-SUFFIX,viu.com,HKMedia
 DOMAIN-SUFFIX,viu.tv,HKMedia
+DOMAIN,api.viu.now.com,HKMedia
+DOMAIN,d1k2us671qcoau.cloudfront.net,HKMedia
+DOMAIN,d2anahhhmp1ffz.cloudfront.net,HKMedia
+DOMAIN,dfp6rglgjqszk.cloudfront.net,HKMedia
 
 // encoreTVB
 USER-AGENT,encoreTVB*,HKMedia
