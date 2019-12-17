@@ -1,7 +1,6 @@
 // YouTube
-USER-AGENT,*YouTube*,YouTube
-USER-AGENT,*youtube*,YouTube
-DOMAIN-SUFFIX,youtu.be,YouTube
+USER-AGENT,com.google.ios.youtube*,YouTube
+USER-AGENT,YouTube*,YouTube
 DOMAIN-SUFFIX,googlevideo.com,YouTube
+DOMAIN-SUFFIX,youtube.com,YouTube
 DOMAIN,youtubei.googleapis.com,YouTube
-DOMAIN-KEYWORD,youtube,YouTube
