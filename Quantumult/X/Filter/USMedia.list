@@ -13,7 +13,8 @@ DOMAIN-SUFFIX,hbo.com,USMedia
 DOMAIN-SUFFIX,hboasia.com,USMedia
 DOMAIN-SUFFIX,hbogo.com,USMedia
 DOMAIN-SUFFIX,hbogoasia.hk,USMedia
-
+DOMAIN-SUFFIX,hbonow.com,USMedia
+DOMAIN-SUFFIX,hbomax.com,USMedia
 // Hulu
 USER-AGENT,Hulu*,USMedia
 DOMAIN-SUFFIX,happyon.jp,USMedia
