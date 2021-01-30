@@ -22,9 +22,9 @@ hostname = api.bilibili.com
 */
 
 const Group = $persistentStore.read('BiliArea_Policy') || 'BiliBili'; //Your blibli policy group name.
-const CN = $persistentStore.read('BiliArea_CN') || '➖ 直连'; //Your China sub-policy name.
-const TW = $persistentStore.read('BiliArea_TW') || '🇨🇳 台湾'; //Your Taiwan sub-policy name.
-const HK = $persistentStore.read('BiliArea_HK') || '🇭🇰 香港'; //Your HongKong sub-policy name.
+const CN = $persistentStore.read('BiliArea_CN') || '直连'; //Your China sub-policy name.
+const TW = $persistentStore.read('BiliArea_TW') || '台湾'; //Your Taiwan sub-policy name.
+const HK = $persistentStore.read('BiliArea_HK') || '香港'; //Your HongKong sub-policy name.
 
 var obj = JSON.parse($response.body),
 	obj = (obj.result || obj.data || {}).title || '';
