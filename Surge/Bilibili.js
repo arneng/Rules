@@ -1,11 +1,4 @@
 
-
-您需要配置相关规则集（https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/StreamingMedia/StreamingSE.list）绑定相关select策略组，并且需要具有相关的区域代理服务器纳入您的子策略中。
-最后，您可以通过BoxJs设置策略名和子策略名，或者手动填入脚本。
-
-Update: 2021.02.07
-Author: @NobyDa
-
 ****************************
 Surge 4.2+ 远程脚本配置 :
 ****************************
