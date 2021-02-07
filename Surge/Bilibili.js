@@ -21,7 +21,7 @@ hostname = api.bilibili.com
 ****************************
 */
 
-const Group = $persistentStore.read('BiliArea_Policy') || 'BiliBili'; //Your blibli policy group name.
+const Group = $persistentStore.read('BiliArea_Policy') || 'Bilibili'; //Your blibli policy group name.
 const CN = $persistentStore.read('BiliArea_CN') || 'Direct'; //Your China sub-policy name.
 const TW = $persistentStore.read('BiliArea_TW') || 'TW'; //Your Taiwan sub-policy name.
 const HK = $persistentStore.read('BiliArea_HK') || 'HK'; //Your HongKong sub-policy name.
@@ -40,7 +40,7 @@ const str = (() => {
 if (str && obj) {
 	const change = $surge.setSelectGroupPolicy(Group, str);
 	const notify = $persistentStore.read('BiliAreaNotify') === 'true';
-	if (!notify) $notification.post(obj, ``, `${current}  =>  ${str}  =>  ${change?`🟢`:`🔴`}`);
+	if (!notify) $notification.post(obj, ``, `${current}  =>  ${str}  =>  ${change?`⭕️`:`❌`}`);
 	if (change) {
 		$done(); //Kill the connection. Due to the characteristics of Surge, it will auto reconnect with the new policy.
 	} else {
