@@ -31,9 +31,9 @@ var obj = JSON.parse($response.body),
 const current = $surge.selectGroupDetails().decisions[Group] || 'Policy error ⚠️'
 const str = (() => {
 	if (obj.match(/\u50c5[\u4e00-\u9fa5]+\u53f0/)) {
-		if (current != HK) return HK;
-	} else if (obj.match(/\u50c5[\u4e00-\u9fa5]+\u6e2f/)) {
 		if (current != TW) return TW;
+	} else if (obj.match(/\u50c5[\u4e00-\u9fa5]+\u6e2f/)) {
+		if (current != HK) return HK;
 	} else if (current != CN) return CN;
 })()
 
