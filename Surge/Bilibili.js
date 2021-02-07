@@ -36,7 +36,7 @@ const str = (() => {
 if (str) {
 	const change = $surge.setSelectGroupPolicy(Group, str);
 	const notify = $persistentStore.read('BiliAreaNotify') === 'true';
-	if (!notify) $notification.post(obj, ``, `${current}  =>  ${str}  =>  ${change?`🟢`:`🔴`}`);
+	if (!notify) $notification.post(obj, ``, `${current}  =>  ${str}  =>  ${change?`成功`:`失败`}`);
 	if (change) {
 		$done(); //Kill the connection. Due to the characteristics of Surge, it will auto reconnect with the new policy.
 	} else {
