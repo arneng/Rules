@@ -56,7 +56,7 @@ let run = EnvInfo();
 
 async function SwitchRegion(play) {
 	const Group = $.read('BiliArea_Policy') || 'Bilibili'; //Your blibli policy group name.
-	const CN = $.read('BiliArea_CN') || 'DIRECT'; //Your China sub-policy name.
+	const CN = $.read('BiliArea_CN') || 'Direct'; //Your China sub-policy name.
 	const TW = $.read('BiliArea_TW') || 'TW'; //Your Taiwan sub-policy name.
 	const HK = $.read('BiliArea_HK') || 'HK'; //Your HongKong sub-policy name.
 	const current = await $.getPolicy(Group);
