@@ -1,3 +1,4 @@
+proxies:
 - name: 🇭🇰 深移→港
   server: 120.232.251.206
   port: 29980
@@ -38,3 +39,256 @@
   password: 2ef91648-089f-4c81-b34d-06f072ec51dd
   tls: true
   skip-cert-verify: true
+- name: 🇸🇬 深移→新
+  server: 120.232.251.206
+  port: 29979
+  type: http
+  username: 442993652168396800
+  password: 2ef91648-089f-4c81-b34d-06f072ec51dd
+  tls: true
+  skip-cert-verify: true
+- name: 🇸🇬 广移→新01
+  server: 183.240.9.28
+  port: 29979
+  type: http
+  username: 442993652168396800
+  password: 2ef91648-089f-4c81-b34d-06f072ec51dd
+  tls: true
+  skip-cert-verify: true
+- name: 🇸🇬 广移→新02
+  server: 183.240.9.28
+  port: 29982
+  type: http
+  username: 442993652168396800
+  password: 2ef91648-089f-4c81-b34d-06f072ec51dd
+  tls: true
+  skip-cert-verify: true
+- name: 🇸🇬 广移→新03
+  server: 183.240.9.28
+  port: 29983
+  type: http
+  username: 442993652168396800
+  password: 2ef91648-089f-4c81-b34d-06f072ec51dd
+  tls: true
+  skip-cert-verify: true
+- name: 🇸🇬 广移→新04
+  server: 183.240.9.28
+  port: 29984
+  type: http
+  username: 442993652168396800
+  password: 2ef91648-089f-4c81-b34d-06f072ec51dd
+  tls: true
+  skip-cert-verify: true
+- name: 🇸🇬 广移→新05
+  server: 183.240.9.28
+  port: 29987
+  type: http
+  username: 442993652168396800
+  password: 2ef91648-089f-4c81-b34d-06f072ec51dd
+  tls: true
+  skip-cert-verify: true
+- name: 🇸🇬 广移→新06
+  server: 183.240.9.28
+  port: 29988
+  type: http
+  username: 442993652168396800
+  password: 2ef91648-089f-4c81-b34d-06f072ec51dd
+  tls: true
+  skip-cert-verify: true
+- name: 🇸🇬 广移→新07
+  server: 183.240.9.29
+  port: 29979
+  type: http
+  username: 442993652168396800
+  password: 2ef91648-089f-4c81-b34d-06f072ec51dd
+  tls: true
+  skip-cert-verify: true
+- name: 🇸🇬 广移→新08
+  server: 183.240.9.29
+  port: 29982
+  type: http
+  username: 442993652168396800
+  password: 2ef91648-089f-4c81-b34d-06f072ec51dd
+  tls: true
+  skip-cert-verify: true
+- name: 🇸🇬 广移→新09
+  server: 183.240.9.29
+  port: 29983
+  type: http
+  username: 442993652168396800
+  password: 2ef91648-089f-4c81-b34d-06f072ec51dd
+  tls: true
+  skip-cert-verify: true
+- name: 🇸🇬 广移→新10
+  server: 183.240.9.29
+  port: 29984
+  type: http
+  username: 442993652168396800
+  password: 2ef91648-089f-4c81-b34d-06f072ec51dd
+  tls: true
+  skip-cert-verify: true
+- name: 🇸🇬 广移→新11
+  server: 183.240.9.29
+  port: 29987
+  type: http
+  username: 442993652168396800
+  password: 2ef91648-089f-4c81-b34d-06f072ec51dd
+  tls: true
+  skip-cert-verify: true
+- name: 🇸🇬 广移→新12
+  server: 183.240.9.29
+  port: 29988
+  type: http
+  username: 442993652168396800
+  password: 2ef91648-089f-4c81-b34d-06f072ec51dd
+  tls: true
+  skip-cert-verify: true
+- name: 🇸🇬 广移→新13
+  server: 183.240.9.30
+  port: 29979
+  type: http
+  username: 442993652168396800
+  password: 2ef91648-089f-4c81-b34d-06f072ec51dd
+  tls: true
+  skip-cert-verify: true
+- name: 🇸🇬 广移→新14
+  server: 183.240.9.30
+  port: 29982
+  type: http
+  username: 442993652168396800
+  password: 2ef91648-089f-4c81-b34d-06f072ec51dd
+  tls: true
+  skip-cert-verify: true
+- name: 🇸🇬 广移→新15
+  server: 183.240.9.30
+  port: 29983
+  type: http
+  username: 442993652168396800
+  password: 2ef91648-089f-4c81-b34d-06f072ec51dd
+  tls: true
+  skip-cert-verify: true
+- name: 🇸🇬 广移→新16
+  server: 183.240.9.30
+  port: 29984
+  type: http
+  username: 442993652168396800
+  password: 2ef91648-089f-4c81-b34d-06f072ec51dd
+  tls: true
+  skip-cert-verify: true
+- name: 🇸🇬 广移→新17
+  server: 183.240.9.30
+  port: 29987
+  type: http
+  username: 442993652168396800
+  password: 2ef91648-089f-4c81-b34d-06f072ec51dd
+  tls: true
+  skip-cert-verify: true
+- name: 🇸🇬 广移→新18
+  server: 183.240.9.30
+  port: 29988
+  type: http
+  username: 442993652168396800
+  password: 2ef91648-089f-4c81-b34d-06f072ec51dd
+  tls: true
+  skip-cert-verify: true
+- name: 🇸🇬 广移→新19
+  server: 183.240.9.31
+  port: 29979
+  type: http
+  username: 442993652168396800
+  password: 2ef91648-089f-4c81-b34d-06f072ec51dd
+  tls: true
+  skip-cert-verify: true
+- name: 🇸🇬 广移→新20
+  server: 183.240.9.31
+  port: 29982
+  type: http
+  username: 442993652168396800
+  password: 2ef91648-089f-4c81-b34d-06f072ec51dd
+  tls: true
+  skip-cert-verify: true
+- name: 🇸🇬 广移→新21
+  server: 183.240.9.31
+  port: 29983
+  type: http
+  username: 442993652168396800
+  password: 2ef91648-089f-4c81-b34d-06f072ec51dd
+  tls: true
+  skip-cert-verify: true
+- name: 🇸🇬 广移→新22
+  server: 183.240.9.31
+  port: 29984
+  type: http
+  username: 442993652168396800
+  password: 2ef91648-089f-4c81-b34d-06f072ec51dd
+  tls: true
+  skip-cert-verify: true
+- name: 🇸🇬 广移→新23
+  server: 183.240.9.31
+  port: 29987
+  type: http
+  username: 442993652168396800
+  password: 2ef91648-089f-4c81-b34d-06f072ec51dd
+  tls: true
+  skip-cert-verify: true
+- name: 🇸🇬 广移→新24
+  server: 183.240.9.31
+  port: 29988
+  type: http
+  username: 442993652168396800
+  password: 2ef91648-089f-4c81-b34d-06f072ec51dd
+  tls: true
+  skip-cert-verify: true
+- name: λ
+  type: trojan
+  server: pie.abccde.xyz
+  port: 38444
+  password: 4cccb19d-b161-4fea-8bee-cc58d3df410d
+  sni: pie.abccde.xyz
+  skip-cert-verify: false
+  udp: true
+proxy-providers:
+  Hong Kong:
+    type: http
+    path: "./proxy_provider/HK.yaml"
+    url: https://suo.yt/MmFnDiE
+    health-check:
+      enable: true
+      url: http://www.gstatic.com/generate_204
+      interval: 600
+  Taiwan:
+    type: http
+    path: "./proxy_provider/Taiwan.yaml"
+    url: https://suo.yt/JEPJW4R
+    interval: 3600
+    health-check:
+      enable: true
+      url: http://www.gstatic.com/generate_204
+      interval: 600
+  Singapore:
+    type: http
+    path: "./proxy_provider/SG.yaml"
+    url: https://suo.yt/69O2TSd
+    interval: 3600
+    health-check:
+      enable: true
+      url: http://www.gstatic.com/generate_204
+      interval: 600
+  Japan:
+    type: http
+    path: "./proxy_provider/JP.yaml"
+    url: https://suo.yt/O4o7iVn
+    interval: 3600
+    health-check:
+      enable: true
+      url: http://www.gstatic.com/generate_204
+      interval: 600
+  America:
+    type: http
+    path: "./proxy_provider/US.yaml"
+    url: https://suo.yt/qYcR6Wo
+    interval: 3600
+    health-check:
+      enable: true
+      url: http://www.gstatic.com/generate_204
+      interval: 600
