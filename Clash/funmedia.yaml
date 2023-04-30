@@ -4,3 +4,5 @@ payload:
   - DOMAIN-SUFFIX, plex.tv
   - IP-CIDR,150.230.14.170/32
   - DOMAIN,funmedia.10101.io
+  # cola
+  - IP-CIDR,193.122.113.77/32
